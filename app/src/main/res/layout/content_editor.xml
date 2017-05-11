@@ -13,6 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:ems="10"
-        android:inputType="textMultiLine"
-        android:text="Type your note" />
+        android:gravity="top"
+        android:inputType="textMultiLine" />
 </android.support.constraint.ConstraintLayout>
