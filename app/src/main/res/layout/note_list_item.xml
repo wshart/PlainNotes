@@ -23,6 +23,6 @@
         android:text="Dummy Text"
         android:textColor="@color/listItemText"
         android:textSize="18sp"
-        android:maxLines="1" />
+        android:singleLine="true" />
 
 </RelativeLayout>
