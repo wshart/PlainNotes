@@ -22,7 +22,7 @@
 
         <provider
             android:name=".NotesProvider"
-            android:authorities="com.example.plainolnotes.notesprovider"
+            android:authorities="com.wshart.plainnotes.notesprovider"
             android:exported="false" />
 
         <activity

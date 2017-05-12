@@ -15,8 +15,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.Objects;
-
 public class EditorActivity extends AppCompatActivity {
 
     private String action;
@@ -47,6 +45,7 @@ public class EditorActivity extends AppCompatActivity {
                     DBOpenHelper.ALL_COLUMNS, noteFilter, null, null);
             cursor.moveToFirst();
             oldText = cursor.getString(cursor.getColumnIndex(DBOpenHelper.NOTE_TEXT));
+            cursor.close();
             editor.setText(oldText);
             editor.requestFocus();
         }
