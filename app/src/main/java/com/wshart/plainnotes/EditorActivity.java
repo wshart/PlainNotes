@@ -17,6 +17,8 @@ public class EditorActivity extends AppCompatActivity {
 
     private String action;
     private EditText editor;
+    private String noteFilter;
+    private String oldText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
